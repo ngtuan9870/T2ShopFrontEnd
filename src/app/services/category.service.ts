@@ -8,7 +8,7 @@ import { Category } from '../models/category.model';
 })
 export class CategoryService {
 
-  private baseUrl = "http://localhost:8000/api/category/";
+  private baseUrl = "https://t2shopbackendapi.000webhostapp.com/api/category/";
   allCategory = new BehaviorSubject<Category[]>(null);
   public category_name="";
 

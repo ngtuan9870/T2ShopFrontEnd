@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 export class SupplierService {
 
   constructor(private http:HttpClient) { }
-  private baseUrl = 'http://localhost:8000/api/supplier/'
+  private baseUrl = 'https://t2shopbackendapi.000webhostapp.com/api/supplier/'
 
   public themNCC(form){
     return this.http.post(this.baseUrl+'add',form);

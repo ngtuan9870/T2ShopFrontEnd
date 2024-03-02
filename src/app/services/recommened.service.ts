@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class RecommenedService {
 
-  private baseUrl = 'http://localhost:8000/api/recommened/'
+  private baseUrl = 'https://t2shopbackendapi.000webhostapp.com/api/recommened/'
 
   constructor(private http:HttpClient) { }
 

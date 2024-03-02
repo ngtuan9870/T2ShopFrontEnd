@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ShipperService {
 
-  private baseUrl = "http://localhost:8000/api/shipper/";
+  private baseUrl = "https://t2shopbackendapi.000webhostapp.com/api/shipper/";
 
   constructor(private http:HttpClient , private router:Router) { }
 

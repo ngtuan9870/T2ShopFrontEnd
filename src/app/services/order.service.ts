@@ -6,8 +6,8 @@ import { Injectable } from '@angular/core';
 })
 export class OrderService {
 
-  baseUrl = 'http://localhost:8000/api/order/';
-  vnpayUrl='http://localhost:8000/api/';
+  baseUrl = 'https://t2shopbackendapi.000webhostapp.com/order/';
+  vnpayUrl='https://t2shopbackendapi.000webhostapp.com/api/';
 
   constructor(private http:HttpClient) { }
 

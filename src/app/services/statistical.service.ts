@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class StatisticalService {
 
-  private baseUrl = 'http://localhost:8000/api/statistical/'
+  private baseUrl = 'https://t2shopbackendapi.000webhostapp.com/api/statistical/'
 
   constructor(private http:HttpClient) { }
   public theongay(form){

@@ -9,6 +9,6 @@ export class AdminService {
   constructor(private http:HttpClient) { }
 
   public gethome(){
-    return this.http.post('http://localhost:8000/api/admin/gethome',null);
+    return this.http.post('https://t2shopbackendapi.000webhostapp.com/api/admin/gethome',null);
   }
 }

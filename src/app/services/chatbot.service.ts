@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ChatbotService {
-  private baseUrl = "http://localhost:8000/api/chatbot/"; 
+  private baseUrl = "https://t2shopbackendapi.000webhostapp.com/api/chatbot/"; 
   constructor(private http:HttpClient) { }
   public addMessage(form){
     return this.http.post(this.baseUrl+"addMessage",form);

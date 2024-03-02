@@ -3,8 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  apiUrl: 'https://t2shopbackendapi.000webhostapp.com/api'
+  production: false
 };
 
 /*

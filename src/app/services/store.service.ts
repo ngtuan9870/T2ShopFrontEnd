@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class StoreService {
 
-  private base_url = "http://localhost:8000/api/store/";
+  private base_url = "https://t2shopbackendapi.000webhostapp.com/api/store/";
 
   constructor(private http:HttpClient) { }
 

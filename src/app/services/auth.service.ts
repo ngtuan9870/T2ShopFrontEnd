@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class AuthService {
 
-  private baseUrl = 'http://localhost:8000/api/auth/'
+  private baseUrl = 'https://t2shopbackendapi.000webhostapp.com/api/auth/'
   constructor(private http:HttpClient) { }
 
   public dangky(form){

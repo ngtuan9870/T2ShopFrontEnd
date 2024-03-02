@@ -13,7 +13,7 @@ export class ProductService {
   
   
 
-  private baseUrl = "http://localhost:8000/api/";
+  private baseUrl = "https://t2shopbackendapi.000webhostapp.com/api/";
   constructor(private http:HttpClient) {
   }
 

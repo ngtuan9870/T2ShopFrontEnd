@@ -15,7 +15,7 @@ export class CartService {
   public productincarts:Cart[]
   cart = [];
   public procart:Cart = new Cart();
-  private baseUrl='http://localhost:8000/api/cart/';
+  private baseUrl='https://t2shopbackendapi.000webhostapp.com/api/cart/';
   constructor(private http:HttpClient,private shareService:ShareService, private promotionService:PromotionService) { }
 
   public addtocart(p,promotion){

@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class VoucherService {
   
-  private baseUrl = 'http://localhost:8000/api/voucher/';
+  private baseUrl = 'https://t2shopbackendapi.000webhostapp.com/api/voucher/';
 
   constructor(private http:HttpClient) { }
   public addVoucher(form){

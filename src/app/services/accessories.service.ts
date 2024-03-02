@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class AccessoriesService {
 
   constructor(private http:HttpClient) { }
-  private baseUrl = 'http://localhost:8000/api/accessories/'
+  private baseUrl = 'https://t2shopbackendapi.000webhostapp.com/api/accessories/'
 
   public add(form){
     return this.http.post(this.baseUrl+'add',form);

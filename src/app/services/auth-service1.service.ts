@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class AuthService1Service {
-	private baseUrl = 'http://localhost:8000/api/auth/'
+	private baseUrl = 'https://t2shopbackendapi.000webhostapp.com/auth/'
 
   constructor(private http:HttpClient) { }
   public dangky(form){

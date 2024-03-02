@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 export class WarehouseService {
 
   constructor(private http:HttpClient) { }
-  private baseUrl = 'http://localhost:8000/api/warehouse/'
+  private baseUrl = 'https://t2shopbackendapi.000webhostapp.com/api/warehouse/'
 
   public themhang(form){
     return this.http.post(this.baseUrl+'add',form);

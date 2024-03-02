@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class ForgotPasswordService {
 
-  private baseUrl = 'http://localhost:8000/api/auth/forgotPassword/';
+  private baseUrl = 'https://t2shopbackendapi.000webhostapp.com/api/auth/forgotPassword/';
 
   constructor(private http:HttpClient) { }
 
